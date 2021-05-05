@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'InputOutput';
+  MyInputMessage:string="This is Parent component";
+  GetChildData(data:any){  
+    console.log(data);  
+ } 
 }
